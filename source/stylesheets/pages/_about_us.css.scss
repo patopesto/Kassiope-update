@@ -30,3 +30,32 @@
   padding-right: 40px;
   max-width: 1200px;
 }
+
+.facebook-logo-about-us {
+  position: absolute;
+  margin-top: 4px;
+  margin-left: 20px;
+  width: 30px;
+  height: 30px;
+  -webkit-transition: 0.1s linear;
+  transition: 0.1s linear;
+  &:hover {
+    width: 34px;
+    height: 34px;
+  }
+}
+
+.instagram-logo-about-us {
+  position: absolute;
+  margin-top: 4px;
+  margin-left: 20px;
+  width: 30px;
+  height: 30px;
+  -webkit-transition: 0.1s linear;
+  transition: 0.1s linear;
+  &:hover {
+    width: 34px;
+    height: 34px;
+  }
+}
+
