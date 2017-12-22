@@ -1,0 +1,32 @@
+
+/*
+#members {
+  margin: 80px 0px 0px 40px;
+  .photo-us {
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+  }
+  h3 {
+    text-align: center;
+    padding-right: 60px;
+  }
+}
+*/
+
+.photo-us {
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: -180px;
+  height: 450px;
+  @media screen and (min-width:1200px) {
+    width: 100%;
+  }
+}
+
+.about-us-text {
+  margin: 10px auto 20px auto;
+  padding-left: 40px;
+  padding-right: 40px;
+  max-width: 1200px;
+}

@@ -1,0 +1,115 @@
+@import "../config/_variables.css.scss";
+/*-----------------------------------------------------------------------
+*BOX MODEL
+*------------------------------------------------------------------------*/
+$navbar-height: 70px;
+$navbar-blue: #34496F;
+
+
+
+/*-----------------------------------------------------------------------
+*SCSS
+*------------------------------------------------------------------------*/
+.navbar-transparent {
+  height: $navbar-height;
+  background-color: $navbar-blue;
+  opacity: 0.8;
+}
+
+.navbar .navbar-brand {
+  font-family: $title-font;
+  font-size: 40px;
+  padding-left: 30px;
+}
+
+.navbar .navbar-nav {
+  font-family: $title-font;
+  font-size: 30px;
+}
+
+.navbar-transparent .navbar-brand {
+  color: white;
+  line-height: 40px;
+  margin-top: 0px;
+  padding-right: 30px;
+  -webkit-transition: 0.2s linear;
+  transition: 0.2s linear;
+  &:hover {
+    color: white;
+    font-size: 50px;
+    transform: rotate(5deg);
+  }
+}
+
+.france-flag {
+  position: absolute;
+  margin-top: 20px;
+  margin-left: auto;
+  width: 30px;
+  height: 30px;
+  -webkit-transition: 0.1s linear;
+  transition: 0.1s linear;
+  &:hover {
+    width: 34px;
+    height: 34px;
+  }
+}
+
+.england-flag {
+  position: absolute;
+  margin-top: 20px;
+  margin-left: 50px;
+  width: 30px;
+  height: 30px;
+  -webkit-transition: 0.1s linear;
+  transition: 0.1s linear;
+  &:hover {
+    width: 34px;
+    height: 34px;
+  }
+}
+
+
+.facebook-logo {
+  position: absolute;
+  margin-top: 20px;
+  margin-left: 250px;
+  width: 30px;
+  height: 30px;
+  -webkit-transition: 0.1s linear;
+  transition: 0.1s linear;
+  &:hover {
+    width: 34px;
+    height: 34px;
+  }
+}
+
+
+.instagram-logo {
+  position: absolute;
+  margin-top: 20px;
+  margin-left: 300px;
+  width: 30px;
+  height: 30px;
+  -webkit-transition: 0.1s linear;
+  transition: 0.1s linear;
+  &:hover {
+    width: 34px;
+    height: 34px;
+  }
+}
+
+
+
+.navbar-transparent .navbar-nav > li > a{
+  color: white;
+  line-height: 40px;
+  margin-top: 0px;
+  padding-right: 30px;
+  -webkit-transition: 0.2s linear;
+  transition: 0.2s linear;
+  &:hover {
+    color: white;
+    font-size: 38px;
+  }
+}

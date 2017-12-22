@@ -1,0 +1,83 @@
+
+//Police
+//@import url("https://fonts.googleapis.com/css?family=atic+SC:400,700' rel='stylesheet' type='text/css'");
+@import url("https://fonts.googleapis.com/css?family=Lato:300");
+@font-face {
+  font-family: "gotham-light";
+  src: font-url('gotham-light.otf');
+}
+
+@font-face {
+  font-family: "aleo-regular";
+  src: font-url('aleo-regular.ttf');
+}
+
+@font-face {
+  font-family: "amatic";
+  src: font-url('amaticbold.ttf');
+}
+
+@font-face {
+  font-family: "aleo-light";
+  src: font-url('aleo-light.ttf');
+}
+
+/* -------------------------------------
+ * Fonts
+ * ------------------------------------- */
+// Google fonts
+@import url("http://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Montserrat:400,700");
+$base-font: "Open Sans", "Helvetica", "sans-serif";
+$header-font: "Montserrat", "sans-serif";
+
+// Local fonts (uncomment following lines)
+// @font-face {
+//   font-family: "Font Name";
+//   src: font-url('FontFile.eot');
+//   src: font-url('FontFile.eot?#iefix') format('embedded-opentype'),
+//        font-url('FontFile.woff') format('woff'),
+//        font-url('FontFile.ttf') format('truetype')
+// }
+// $my-font: "Font Name";
+
+$title-font: "amatic";
+$text-font: "aleo-light";
+
+// Font-size and line-height
+/*$base-size {
+  @media screen and (max-width: 1920px) {
+    $base-size {
+      font-size: 150px;
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    $base-size {
+      font-size: 20px;
+    }
+  }
+}*/
+
+$title-font-size-lg: 150px;
+$title-font-size-md: 60px;
+/* -------------------------------------
+ * Colors
+ * ------------------------------------- */
+// Scheme
+$red: #EE5F5B;
+$blue: #469AE0;
+$yellow: #FDB631;
+$orange: #E67E22;
+$green: #32B796;
+$purple: #6452BD;
+
+// Gray scale
+$gray-darker:  lighten(#000, 13.5%); // #222
+$gray-dark:    lighten(#000, 20%);   // #333
+$gray:         lighten(#000, 33.5%); // #555
+$gray-light:   lighten(#000, 46.7%); // #777
+$gray-lighter: lighten(#000, 93.5%); // #eee
+
+
+
+// Scheme
